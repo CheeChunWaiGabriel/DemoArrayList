@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         fruits.add(1,"banana");
         fruits.add(2,"cherry");
         fruits.add(3,"durian");
+        String theFruit=fruits.get(1);
+        tv.setText(theFruit);
         fruits.remove(0);
         fruits.set(2,"dragonfruit");
         txt+="Fruits"+"\n";
